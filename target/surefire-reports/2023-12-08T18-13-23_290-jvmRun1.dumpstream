@@ -1,0 +1,18 @@
+# Created at 2023-12-08T18:14:13.630
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-12-08T18:14:13.658
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2023-12-08T18:14:13.660
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (mmap) failed to map 65536 bytes for Failed to commit metaspace.'.
+
+# Created at 2023-12-08T18:14:13.661
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2023-12-08T18:14:13.663
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# D:\EclipseClass\Selenium\hs_err_pid21372.log'.
+
+# Created at 2023-12-08T18:14:13.664
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[thread 22480 also had an error]'.
+

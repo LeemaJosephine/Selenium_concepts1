@@ -1,0 +1,27 @@
+# Created at 2023-12-07T16:22:39.017
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-12-07T16:22:39.020
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2023-12-07T16:22:39.021
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (malloc) failed to allocate 1032336 bytes for Chunk::'.
+
+# Created at 2023-12-07T16:22:39.022
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'new'.
+
+# Created at 2023-12-07T16:22:39.023
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2023-12-07T16:22:39.025
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# D:\EclipseClass\Selenium\hs_err_pid19968.log'.
+
+# Created at 2023-12-07T16:22:39.261
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-12-07T16:22:39.262
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Compiler replay data is saved as:'.
+
+# Created at 2023-12-07T16:22:39.263
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# D:\EclipseClass\Selenium\replay_pid19968.log'.
+
