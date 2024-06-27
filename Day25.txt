@@ -1,0 +1,75 @@
+Day - 25:
+
+Web Components: Browser
+TextBox, ListBox, Links
+Check Box, Radio Button, HTML Tables
+Calendars
+
+Radio Button: 
+	- You can choose only one option. 
+
+Validation: 
+	1. isDisplayed() - whether the option is visible
+	2. isEnabled() - whether the option is accessible
+	3. isSelected() - whether the option is choosen
+	
+CheckBox:
+	- You can choose one or more options
+
+WebTables:
+	- Identify whether the table is present or not using - //table
+
+- Static 
+- Dynamic 
+	
+	List<WebElement> rowCount = driver.findElements(By.xpath("(//table)[1]//tr"));
+		System.out.println("The row count is " + rowCount.size());
+		
+		int size = rowCount.size();
+		
+		List<WebElement> rowData = driver.findElements(By.xpath("(//table)[1]//tr["+size+"]//td"));
+
+<th> - table header
+<tr> - table row
+<td> - table data 
+
+<table> 
+	<thead> </thead>
+	<tbody>
+		<tr>  
+		<th> First name </th> 
+		<th> Last name </th>
+		<th> Marks </th>
+		</tr>
+		<tr>
+		<td> Leema </td>
+		<td> JOsephine </td>
+		<td> 65 </td>
+		</tr>
+		<tr>
+		<td> Lee </td>
+		<td> Jo </td>
+		<td> 56 </td>
+		</tr>
+	</tbody>
+</table> 
+
+To get the cell value: 
+
+(//table)[1]//tr[2]//td[2]   -- [2][2] -
+
+Links:
+	- Will be present in <a> tag. 
+	- href attribute will have the link. 
+	
+ List<WebElement> links = driver.findElements(By.tagName("a"));
+		int size = links.size();
+		System.out.println(size);
+		
+		for(WebElement pagelink: links) {
+			
+			String linktext = pagelink.getText();
+			String link = pagelink.getAttribute("href");
+			System.out.println(linktext+  "-> " +link); 
+			
+		}
