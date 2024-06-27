@@ -34,11 +34,14 @@ public class JDBCdemo {
 		
 				// Step 4: Perform operation
 		Statement stmt = connection.createStatement();
-		//String insert="insert into emptable(empname,dept,salary) values ('Prakash','Mentor',50000.00)";
+		String insert="insert into emptable(empname,dept,salary) values ('Prakash','Mentor',50000.00)";
 		String update = "update emptable set empname='Akash' where empname='prakash'";
 		String select="select * from emptable";
 		
 		// insertion
+		stmt.executeUpdate(insert);
+		
+		//updation
 		stmt.executeUpdate(update);
 		
 		// selecting the data

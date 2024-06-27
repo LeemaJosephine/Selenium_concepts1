@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-11T16:23:17 IST" name="Suite" finished-at="2023-12-11T16:23:35 IST" duration-ms="18389">
+  <suite started-at="2024-01-13T14:22:47 IST" name="Suite" finished-at="2024-01-13T14:23:13 IST" duration-ms="26171">
     <groups>
     </groups>
-    <test started-at="2023-12-11T16:23:17 IST" name="EdgeTest" finished-at="2023-12-11T16:23:35 IST" duration-ms="18285">
+    <test started-at="2024-01-13T14:22:47 IST" name="EdgeTest" finished-at="2024-01-13T14:23:13 IST" duration-ms="26076">
       <class name="day28.LogIn">
-        <test-method is-config="true" signature="setup()[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2023-12-11T16:23:17 IST" name="setup" finished-at="2023-12-11T16:23:17 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2024-01-13T14:22:47 IST" name="setup" finished-at="2024-01-13T14:22:47 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="lunchBroswer(java.lang.String,java.lang.String)[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2023-12-11T16:23:18 IST" name="lunchBroswer" finished-at="2023-12-11T16:23:31 IST" duration-ms="12730" status="PASS">
+        <test-method is-config="true" signature="lunchBroswer(java.lang.String,java.lang.String)[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2024-01-13T14:22:50 IST" name="lunchBroswer" finished-at="2024-01-13T14:23:06 IST" duration-ms="16604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBroswer -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2023-12-11T16:23:31 IST" name="loginTest" data-provider="getData" finished-at="2023-12-11T16:23:35 IST" duration-ms="3739" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2024-01-13T14:23:06 IST" name="loginTest" data-provider="getData" finished-at="2024-01-13T14:23:13 IST" duration-ms="6455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,13 +43,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2023-12-11T16:23:35 IST" name="closeBrowser" finished-at="2023-12-11T16:23:35 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:day28.LogIn@38d8f54a]" started-at="2024-01-13T14:23:13 IST" name="closeBrowser" finished-at="2024-01-13T14:23:13 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- day28.LogIn -->
     </test> <!-- EdgeTest -->
-    <test started-at="2023-12-11T16:23:35 IST" name="ChromeTest" finished-at="2023-12-11T16:23:35 IST" duration-ms="1">
+    <test started-at="2024-01-13T14:23:13 IST" name="ChromeTest" finished-at="2024-01-13T14:23:13 IST" duration-ms="0">
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

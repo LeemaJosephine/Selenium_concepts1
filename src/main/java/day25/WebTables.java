@@ -27,18 +27,17 @@ WebDriver driver = new ChromeDriver();
 //	List<WebElement> columnCount = driver.findElements(By.xpath("(//table)[1]//th"));
 //		System.out.println("The column count is " + columnCount.size());
 		
-		List<WebElement> rowCount = driver.findElements(By.xpath("(//table)[1]//tr"));
+		List<WebElement> rowCount = driver.findElements(By.xpath("(//table)[2]//tr"));
 		System.out.println("The row count is " + rowCount.size());
 		
 		int size = rowCount.size();
 		
-		List<WebElement> rowData = driver.findElements(By.xpath("(//table)[1]//tr["+size+"]//td"));
-//		
-//		for(int i =0; i < rowData.size();i++) {
-//			
-//			System.out.println(rowData.get(i).getText());
-//			
-//		}
+		List<WebElement> rowData = driver.findElements(By.xpath("(//table)[2]//tr//th"));
+		
+		for(int i =0; i < rowData.size();i++) {
+						System.out.println(rowData.get(i).getText());
+			
+		}
 		
 		List<WebElement> names = driver.findElements(By.xpath("//table[contains(@class,'table table-bordered table')]//tr//td[1]"));
 		System.out.println("Original list " +names.size());
